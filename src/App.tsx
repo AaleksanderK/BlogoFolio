@@ -30,10 +30,10 @@ function App() {
     theme === THEMES.LIGHT ? "#ffff" : "#313037";
   document.body.style.color = theme === THEMES.LIGHT ? "#313037" : "#ffff";
   return (
-    <BrowserRouter>
+    <div className="wrapper">
+      <BrowserRouter>
         {isModal && <Modal />}
         <Header />
-    <div className="wrapper">
         <div className="main-content">
           <Routes>
             <Route path="/">
@@ -81,9 +81,9 @@ function App() {
             </Route>
           </Routes>
         </div>
-    </div>
         <MainFooter />
       </BrowserRouter>
+    </div>
   );
 }
 
