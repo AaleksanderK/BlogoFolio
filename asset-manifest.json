@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BlogoFolio/static/css/main.eb75c80c.css",
+    "main.js": "/BlogoFolio/static/js/main.7dd881e6.js",
+    "index.html": "/BlogoFolio/index.html",
+    "main.eb75c80c.css.map": "/BlogoFolio/static/css/main.eb75c80c.css.map",
+    "main.7dd881e6.js.map": "/BlogoFolio/static/js/main.7dd881e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb75c80c.css",
+    "static/js/main.7dd881e6.js"
+  ]
+}
