@@ -36,7 +36,7 @@ function App() {
         <Header />
         <div className="main-content">
           <Routes>
-            <Route path="/">
+            <Route path="/BlogoFolio">
               <Route index element={<StartPage />} />
               <Route path="posts">
                 <Route index element={<MainPage />} />
